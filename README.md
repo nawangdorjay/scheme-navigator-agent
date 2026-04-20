@@ -1,5 +1,7 @@
 # 🏛️ Yojana Saathi — Government Scheme Navigator Agent
 
+![Screenshot](screenshots/output.png)
+
 An AI agent that helps Indian citizens discover government schemes they're eligible for, understand benefits, and apply with confidence.
 
 Built by [Nawang Dorjay](https://github.com/nawangdorjay) — from Ladakh, for **GSSoC 2026** (Agents for India Track).
