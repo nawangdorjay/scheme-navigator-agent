@@ -1,0 +1,350 @@
+[
+  {
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "short_name": "PM-KISAN",
+    "category": "Agriculture",
+    "description": "Direct income support of ₹6,000 per year to all farmer families with cultivable land, paid in 3 installments of ₹2,000 every 4 months.",
+    "benefit_amount": "₹6,000/year",
+    "eligibility_criteria": {
+      "occupation": ["farmer", "all"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "All small and marginal farmer families with cultivable land in their name.",
+    "exclusions": "Institutional land holders, farmer families with any member serving/having served in constitutional posts, professionals (doctors, engineers, lawyers, CAs), pensioners with ₹10,000+ pension.",
+    "documents_needed": ["Aadhaar Card", "Bank Account (linked to Aadhaar)", "Land ownership documents (Khata/Khatauni)", "Passport photo"],
+    "how_to_apply": "1. Visit pmkisan.gov.in → 'New Farmer Registration'\n2. Or visit nearest CSC (Common Service Centre)\n3. Or contact local Patwari/Lekhpal",
+    "website": "https://pmkisan.gov.in",
+    "helpline": "155261 / 011-24300606",
+    "keywords": ["kisan", "farmer", "income", "direct benefit", "cash", "money", "6000", "samman nidhi", "installment"]
+  },
+  {
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "short_name": "PMFBY",
+    "category": "Agriculture",
+    "description": "Crop insurance at subsidized premium. Farmer pays only 1.5-5% of sum insured. Covers yield loss due to natural calamities, pests, diseases.",
+    "benefit_amount": "Sum insured varies by crop and area (typically ₹20,000-₹50,000/ha)",
+    "eligibility_criteria": {
+      "occupation": ["farmer", "all"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "All farmers growing notified crops in notified areas. Both loanee and non-loanee farmers.",
+    "documents_needed": ["Aadhaar Card", "Land records", "Bank account", "Sowing certificate (for non-loanee)", "Passport photo"],
+    "how_to_apply": "Loanee farmers: automatic through bank. Non-loanee: apply at CSC, insurance company, or pmfby.gov.in",
+    "website": "https://pmfby.gov.in",
+    "helpline": "14447",
+    "keywords": ["insurance", "crop", "fasal bima", "loss", "damage", "drought", "flood", "compensation", "natural disaster"]
+  },
+  {
+    "name": "Kisan Credit Card (KCC)",
+    "short_name": "KCC",
+    "category": "Agriculture",
+    "description": "Low-interest credit facility for farming needs. Interest subvention of 2%. Effective rate: 4% per annum for timely repayment.",
+    "benefit_amount": "Credit limit based on land holding (₹50,000 to ₹3 lakh+)",
+    "eligibility_criteria": {
+      "occupation": ["farmer", "all"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "All farmers — individual, joint borrowers, tenant farmers, sharecroppers, oral lessees, SHGs of farmers.",
+    "documents_needed": ["Aadhaar Card", "Land documents (Khatauni/Khata)", "Passport photo", "ID proof", "Address proof"],
+    "how_to_apply": "Apply at any nationalized bank, cooperative bank, or RRB. Bring land records and Aadhaar.",
+    "website": null,
+    "helpline": "Contact your nearest bank branch",
+    "keywords": ["credit card", "loan", "bank", "kcc", "kisan credit", "borrow", "interest", "finance", "credit"]
+  },
+  {
+    "name": "Ayushman Bharat — PM-JAY",
+    "short_name": "Ayushman Bharat",
+    "category": "Health",
+    "description": "Free health insurance up to ₹5 lakh per family per year for secondary and tertiary hospitalization. Covers 1,900+ procedures at empanelled hospitals.",
+    "benefit_amount": "₹5 lakh/year per family",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["below_1lakh", "1_3lakh"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Families identified from SECC 2011 data. No cap on family size or age. Check at mera.pmjay.gov.in or call 14555.",
+    "documents_needed": ["Aadhaar Card", "Ayushman Card (can be made at CSC or hospital)"],
+    "how_to_apply": "1. Check eligibility at mera.pmjay.gov.in\n2. If eligible, get Ayushman Card at CSC or empanelled hospital\n3. Show card + Aadhaar at hospital for free treatment",
+    "website": "https://pmjay.gov.in",
+    "helpline": "14555",
+    "keywords": ["ayushman", "health", "insurance", "hospital", "free treatment", "surgery", "5 lakh", "card", "medical"]
+  },
+  {
+    "name": "Jan Aushadhi (PMBJP)",
+    "short_name": "Jan Aushadhi",
+    "category": "Health",
+    "description": "Quality generic medicines at 50-90% lower cost than branded equivalents. Available at 10,000+ Jan Aushadhi Kendras across India.",
+    "benefit_amount": "50-90% savings on medicines",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Everyone — no eligibility criteria.",
+    "documents_needed": ["Prescription (for prescription medicines)"],
+    "how_to_apply": "Find nearest store at janaushadhi.gov.in or call 1800-180-6060. Show prescription, get medicines.",
+    "website": "https://janaushadhi.gov.in",
+    "helpline": "1800-180-6060",
+    "keywords": ["medicine", "cheap", "generic", "pharmacy", "drug", "tablet", "store", "janaushadhi", "affordable"]
+  },
+  {
+    "name": "Pradhan Mantri Awas Yojana (PMAY)",
+    "short_name": "PM Awas",
+    "category": "Housing",
+    "description": "Financial assistance to build pucca house. Urban: interest subsidy up to ₹2.67 lakh on home loan. Rural: ₹1.30 lakh (₹1.20 lakh for hilly/difficult areas).",
+    "benefit_amount": "₹1.20-2.67 lakh subsidy",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["below_1lakh", "1_3lakh", "3_5lakh"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "EWS/LIG families without pucca house. Annual income up to ₹6 lakh for urban (EWS) and ₹3 lakh for rural.",
+    "documents_needed": ["Aadhaar Card", "Income certificate", "BPL card (if any)", "Land documents", "Bank account", "Passport photo"],
+    "how_to_apply": "Urban: pmaymis.gov.in. Rural: Visit block office or apply online at pmayg.nic.in",
+    "website": "https://pmaymis.gov.in",
+    "helpline": "1800-11-6446",
+    "keywords": ["house", "home", "awas", "shelter", "construction", "loan", "subsidy", "makaan", "ghar", "housing"]
+  },
+  {
+    "name": "MGNREGA (Mahatma Gandhi National Rural Employment Guarantee Act)",
+    "short_name": "MGNREGA",
+    "category": "Employment",
+    "description": "Guaranteed 100 days of wage employment per year to every rural household. Minimum wage as per state rate.",
+    "benefit_amount": "100 days guaranteed work at ₹250-350/day (varies by state)",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Any adult member of a rural household willing to do unskilled manual work. Must have job card.",
+    "documents_needed": ["Aadhaar Card", "Job Card (issued by Gram Panchayat)", "Bank/Post Office account"],
+    "how_to_apply": "Visit your Gram Panchayat. Apply for job card. Demand work — must be provided within 15 days or get unemployment allowance.",
+    "website": "https://nrega.nic.in",
+    "helpline": "1800-345-6789 (toll-free)",
+    "keywords": ["mgnrega", "nrega", "employment", "work", "job", "labour", "100 days", "rural", "wage", "guarantee"]
+  },
+  {
+    "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "short_name": "PMKVY",
+    "category": "Employment",
+    "description": "Free skill training and certification. Training in 200+ job roles. ₹8,000 stipend for training period. Placement assistance.",
+    "benefit_amount": "Free training + ₹8,000 stipend + certification",
+    "eligibility_criteria": {
+      "occupation": ["student", "unemployed", "all"],
+      "income": ["any"],
+      "min_age": 15,
+      "max_age": 45,
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Indian nationals, 15-45 years, school/college dropouts or unemployed.",
+    "documents_needed": ["Aadhaar Card", "Bank account", "Passport photo", "Educational certificates"],
+    "how_to_apply": "Visit pmkvyofficial.org or nearest training centre. Choose course, enroll, get trained and certified.",
+    "website": "https://pmkvyofficial.org",
+    "helpline": "88000-55555",
+    "keywords": ["skill", "training", "course", "certificate", "job", "pmkvy", "kaushal", "employment", "free course"]
+  },
+  {
+    "name": "Pradhan Mantri Ujjwala Yojana",
+    "short_name": "Ujjwala",
+    "category": "Women",
+    "description": "Free LPG connection for women from BPL/EWS families. Includes first refill and stove free of cost.",
+    "benefit_amount": "Free LPG connection (~₹3,200 value) + first refill + stove",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["below_1lakh", "1_3lakh"],
+      "gender": "female",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Women from BPL households. Must be 18+ years. No existing LPG connection in household.",
+    "documents_needed": ["Aadhaar Card", "BPL Ration Card or eligible category certificate", "Bank account", "Passport photo"],
+    "how_to_apply": "Visit nearest LPG distributor or apply online at pmujjwalayojana.com",
+    "website": "https://pmujjwalayojana.com",
+    "helpline": "1906 (LPG helpline)",
+    "keywords": ["gas", "lpg", "cooking", "cylinder", "ujjwala", "women", "free connection", "fuel"]
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana",
+    "short_name": "Sukanya Samriddhi",
+    "category": "Women",
+    "description": "Savings scheme for girl child. Open account with ₹250, max ₹1.5 lakh/year. 8.2% interest (tax-free). Maturity at 21 years.",
+    "benefit_amount": "8.2% interest (tax-free). ~₹64 lakh on ₹1.5L/year deposit for 15 years.",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["any"],
+      "gender": "female",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Girl child below 10 years. Max 2 accounts per family (3 for twins in second birth).",
+    "documents_needed": ["Girl's birth certificate", "Parent's ID proof", "Address proof", "Passport photo"],
+    "how_to_apply": "Open account at post office or authorized bank. Minimum deposit ₹250/year.",
+    "website": null,
+    "helpline": "Visit nearest post office",
+    "keywords": ["sukanya", "girl child", "savings", "account", "daughter", "beti", "investment", "education", "marriage"]
+  },
+  {
+    "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "short_name": "MUDRA Loan",
+    "category": "Business",
+    "description": "Loans up to ₹10 lakh for non-farm micro/small enterprises without collateral. Three categories: Shishu (₹50K), Kishore (₹5L), Tarun (₹10L).",
+    "benefit_amount": "₹50,000 to ₹10 lakh",
+    "eligibility_criteria": {
+      "occupation": ["business", "self-employed", "all"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Any Indian citizen with a business plan for non-farm income-generating activity (manufacturing, trading, services).",
+    "documents_needed": ["Aadhaar Card", "PAN Card", "Business plan/project report", "Address proof", "Passport photo", "Category certificate (if applicable)"],
+    "how_to_apply": "Apply at any bank, NBFC, or MFI. Can also apply online at mudra.org.in",
+    "website": "https://mudra.org.in",
+    "helpline": "1800-180-1111",
+    "keywords": ["mudra", "loan", "business", "enterprise", "startup", "shop", "small business", "collateral free", "self employment"]
+  },
+  {
+    "name": "Stand-Up India",
+    "short_name": "Stand-Up India",
+    "category": "Business",
+    "description": "Bank loans ₹10 lakh to ₹1 crore for SC/ST/Women entrepreneurs for setting up greenfield enterprise.",
+    "benefit_amount": "₹10 lakh to ₹1 crore",
+    "eligibility_criteria": {
+      "occupation": ["business", "all"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["sc", "st", "all"]
+    },
+    "eligibility_text": "SC/ST or Women entrepreneur. 18+ years. Greenfield project (first-time venture in manufacturing/services/trading).",
+    "documents_needed": ["Aadhaar Card", "PAN Card", "Caste certificate (for SC/ST)", "Project report", "Address proof"],
+    "how_to_apply": "Apply at standupmitra.in or at nearest bank branch.",
+    "website": "https://standupmitra.in",
+    "helpline": "1800-180-1111",
+    "keywords": ["stand up", "entrepreneur", "women business", "sc/st", "startup", "greenfield", "crore loan"]
+  },
+  {
+    "name": "Pradhan Mantri Scholarship Scheme (PMSS)",
+    "short_name": "PM Scholarship",
+    "category": "Education",
+    "description": "Scholarship for children of ex-servicemen, CAPF, and police personnel. ₹2,500/month for boys, ₹3,000/month for girls.",
+    "benefit_amount": "₹2,500-3,000/month",
+    "eligibility_criteria": {
+      "occupation": ["student"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Children of ex-servicemen/CAPF/police. Professional degree courses. Min 60% in 12th.",
+    "documents_needed": ["Aadhaar Card", "Ex-serviceman certificate", "12th marksheet", "College admission proof", "Bank account"],
+    "how_to_apply": "Apply online at ksbindia.gov.in",
+    "website": "https://ksbindia.gov.in",
+    "helpline": null,
+    "keywords": ["scholarship", "education", "student", "ex-serviceman", "army", "police", "fees", "college"]
+  },
+  {
+    "name": "Post Matric Scholarship (SC/ST/OBC)",
+    "short_name": "Post Matric Scholarship",
+    "category": "Education",
+    "description": "Scholarship for SC/ST/OBC students for post-matric studies (class 11 to PhD). Covers tuition fees, maintenance allowance, and other charges.",
+    "benefit_amount": "Tuition fees + ₹230-1200/month maintenance (varies by course and category)",
+    "eligibility_criteria": {
+      "occupation": ["student"],
+      "income": ["below_1lakh", "1_3lakh", "3_5lakh"],
+      "gender": "all",
+      "reservation_category": ["sc", "st", "obc"]
+    },
+    "eligibility_text": "SC: family income up to ₹2.5 lakh. ST: up to ₹2.5 lakh. OBC: up to ₹1 lakh (varies by state).",
+    "documents_needed": ["Aadhaar Card", "Caste certificate", "Income certificate", "Bank account", "College bonafide", "Previous year marksheet"],
+    "how_to_apply": "Apply on National Scholarship Portal: scholarships.gov.in",
+    "website": "https://scholarships.gov.in",
+    "helpline": "0120-6619540",
+    "keywords": ["scholarship", "sc/st", "obc", "education", "student", "college", "fees", "post matric", "tuition"]
+  },
+  {
+    "name": "Indira Gandhi National Old Age Pension (IGNOAPS)",
+    "short_name": "Old Age Pension",
+    "category": "Elderly",
+    "description": "Monthly pension of ₹200 (60-79 years) or ₹500 (80+ years) for BPL elderly. State governments often add to this amount.",
+    "benefit_amount": "₹200-500/month (central) + state contribution varies",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["below_1lakh"],
+      "min_age": 60,
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "60+ years, BPL family. No other regular pension source.",
+    "documents_needed": ["Aadhaar Card", "Age proof", "BPL card", "Bank account", "Passport photo"],
+    "how_to_apply": "Apply at Gram Panchayat / Block office / District Social Welfare office. Also on NSP: scholarships.gov.in",
+    "website": "https://nsap.nic.in",
+    "helpline": "Contact District Social Welfare Officer",
+    "keywords": ["pension", "old age", "elderly", "senior citizen", "buddha", "vriddha", "monthly pension", "retirement"]
+  },
+  {
+    "name": "PM Kusum (Solar Pump & Power)",
+    "short_name": "PM Kusum",
+    "category": "Agriculture",
+    "description": "Solar agricultural pumps with 60% subsidy. Farmers can also sell surplus solar power to the grid and earn ₹60,000-₹1,00,000 per year.",
+    "benefit_amount": "60% subsidy on solar pump + earn ₹60K-1L/year selling power",
+    "eligibility_criteria": {
+      "occupation": ["farmer", "all"],
+      "income": ["any"],
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Individual farmers, cooperatives, FPOs, water user associations.",
+    "documents_needed": ["Aadhaar Card", "Land documents", "Bank account", "Electricity connection details (for solarization)"],
+    "how_to_apply": "Apply through State Nodal Agency or online at pmkusum.mnre.gov.in",
+    "website": "https://pmkusum.mnre.gov.in",
+    "helpline": "Contact state renewable energy department",
+    "keywords": ["solar", "pump", "electricity", "power", "energy", "subsidy", "kusum", "renewable", "earn money"]
+  },
+  {
+    "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "short_name": "Maternity Benefit",
+    "category": "Women",
+    "description": "Cash benefit of ₹5,000 in 3 installments for pregnant and lactating women for first living child. ₹6,000 for second child (through JSY).",
+    "benefit_amount": "₹5,000 (first child) + ₹1,000 under JSY",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["any"],
+      "gender": "female",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "All pregnant and lactating women (excluding those in regular employment with paid maternity benefits).",
+    "documents_needed": ["Aadhaar Card", "MCP card (Mother-Child Protection)", "Bank account", "Institutional delivery proof"],
+    "how_to_apply": "Register at nearest Anganwadi centre or PHC during pregnancy.",
+    "website": "https://pmmvy.nic.in",
+    "helpline": "1800-11-3030 (toll-free)",
+    "keywords": ["maternity", "pregnancy", "delivery", "mother", "baby", "birth", "women", "anganwadi"]
+  },
+  {
+    "name": "Atal Pension Yojana (APY)",
+    "short_name": "Atal Pension",
+    "category": "Elderly",
+    "description": "Guaranteed pension of ₹1,000 to ₹5,000 per month after age 60. For unorganized sector workers. Government co-contributes 50% for 5 years.",
+    "benefit_amount": "₹1,000-5,000/month pension after 60",
+    "eligibility_criteria": {
+      "occupation": ["all"],
+      "income": ["below_1lakh", "1_3lakh", "3_5lakh"],
+      "min_age": 18,
+      "max_age": 40,
+      "gender": "all",
+      "reservation_category": ["all"]
+    },
+    "eligibility_text": "Indian citizens 18-40 years, not covered by any statutory social security scheme.",
+    "documents_needed": ["Aadhaar Card", "Bank account", "Mobile number"],
+    "how_to_apply": "Open APY account at any bank or post office. Monthly contribution ₹42-1,454 based on desired pension.",
+    "website": "https://npscra.nsdl.co.in",
+    "helpline": "Contact your bank",
+    "keywords": ["pension", "atal", "retirement", "old age", "guaranteed pension", "saving", "monthly income"]
+  }
+]
